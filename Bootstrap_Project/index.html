@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body >
+    <div id="home">
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="images/HTML.png"
+              width="190px"
+              height="190px"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/Java.png"
+              width="190px"
+              height="190px"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/AngularJS.png"
+              width="190px"
+              height="190px"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <nav
+        id="navbar"
+        class="navbar navbar-expand-lg bg-body-tertiary  sticky-top"
+      >
+        <div class="container-fluid px-4">
+          <a hre class="navbar-brand" href="#"
+            ><img width="200px" src="images/logo.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-2 ">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#home">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+
+             
+
+              <li class="nav-item">
+                <a class="nav-link" href="#contact"> Contact Us </a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2 form-input"
+                type="search"
+                placeholder="Search Language"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div
+     
+        class="section"
+        data-bs-spy="scroll"
+        data-bs-target="#navbar"
+        data-bs-smooth-scroll="true"
+      >
+        <div class="text-center mt-5">
+          <h1>Programming Languages</h1>
+        </div>
+        <section
+        id="services"
+          class="d-flex my-4 container-fluid flex-wrap justify-content-center align-items-center gap-4 py-5"
+        >
+          <div  class="card bg-body-tertiary" style="width: 18rem">
+            <img
+              src="images/Java_(1).png"
+              width="150px"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Java</h5>
+              <p class="card-text">
+                Java is a high-level, class-based, object-oriented programming
+                language that is designed to have as few implementation
+                dependencies as possible.
+              </p>
+              <a href="#" class="btn btn-primary">Read More...</a>
+            </div>
+          </div>
+
+          <div class="card bg-body-tertiary" style="width: 18rem">
+            <img
+              src="images/JavaScript_logo_PNG_(1).png"
+              width="150px"
+              height="180px"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">JavaScript</h5>
+              <p class="card-text">
+                JS is a programming language and core technology of the Web,
+                alongside HTML and CSS. 99% of websites use JavaScript on the
+                client side for webpage behavior.
+              </p>
+              <a href="#" class="btn btn-primary">Read More...</a>
+            </div>
+          </div>
+
+          <div class="card bg-body-tertiary" style="width: 18rem">
+            <img
+              src="images/React.png"
+              width="150px"
+              height="180px"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">React</h5>
+              <p class="card-text">
+                React is a free and open-source front-end JavaScript library for
+                building user interfaces based on components. It is maintained
+                by Meta and a community.
+              </p>
+              <a href="#" class="btn btn-primary">Read More...</a>
+            </div>
+          </div>
+
+          <div  class="card bg-body-tertiary" style="width: 18rem">
+            <img
+              src="images/python.png"
+              width="150px"
+              height="180px"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Python</h5>
+              <p class="card-text">
+                Python is a high-level, general-purpose programming language.
+                Its design philosophy emphasizes code readability with the use
+                of significant indentation.
+              </p>
+              <a href="#" class="btn btn-primary">Read More...</a>
+            </div>
+          </div>
+
+          <div class="card bg-body-tertiary" style="width: 18rem">
+            <img
+              src="images/c++.png"
+              width="150px"
+              height="180px"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">C++</h5>
+              <p class="card-text">
+                C++ is a high-level, general-purpose programming language
+                created by Danish computer scientist Bjarne Stroustrup. C++ can
+                be used multiple platforms.
+              </p>
+              <a href="#" class="btn btn-primary">Read More...</a>
+            </div>
+          </div>
+
+          <div class="card bg-body-tertiary" style="width: 18rem">
+            <img
+              src="images/php.png"
+              width="150px"
+              height="180px"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Php</h5>
+              <p class="card-text">
+                PHP is a general-purpose scripting language geared towards web
+                development. It was originally programmer Rasmus Lerdorf in 1993
+                and released in 1995.
+              </p>
+              <a href="#" class="btn btn-primary">Read More...</a>
+            </div>
+          </div>
+
+          <div id="about" class="card bg-body-tertiary" style="width: 18rem">
+            <img
+              src="images/Node.js"
+              width="150px"
+              height="180px"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Node Js</h5>
+              <p class="card-text">
+                Node.js is a cross-platform, open-source JavaScript runtime
+                environment that can run on Windows, Linux, Unix, macOS, and
+                more.
+              </p>
+              <a href="#" class="btn btn-primary">Read More...</a>
+            </div>
+          </div>
+
+          <div class="card bg-body-tertiary" style="width: 18rem">
+            <img
+              src="images/C_sharp.png"
+              width="150px"
+              height="180px"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">C#</h5>
+              <p class="card-text">
+                C# is a general-purpose high-level programming language
+                supporting multiple paradigms. C# encompasses and
+                component-oriented programming disciplines.
+              </p>
+              <a href="#" class="btn btn-primary">Read More...</a>
+            </div>
+          </div>
+
+          <div class="card bg-body-tertiary" style="width: 18rem">
+            <img
+              src="images/Mongodb.png"
+              width="150px"
+              height="180px"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Mongo Db</h5>
+              <p class="card-text">
+                MongoDB is a source-available, cross-platform, document-oriented
+                database program. Classified as a NoSQL database product
+                documents with optional schemas.
+              </p>
+              <a href="#" class="btn btn-primary">Read More...</a>
+            </div>
+          </div>
+        </section>
+
+        <section
+        id="contact"
+          class="d-flex container-fluid justify-content-around flex-wrap bg-body-tertiary pb-5"
+        >
+          <div>
+            <h2 class="my-3">Interested In Discussing?</h2>
+            <h2 class="my-3">Stay Connected</h2>
+            <ul class="list-unstyled">
+              <li>
+                <a class="nav-link" href="https://google.com"> Google</a>
+              </li>
+              <li>
+                <a class="nav-link" href="https://fb.com"> Facebook</a>
+              </li>
+              <li>
+                <a class="nav-link" href="https://twitter.com">Twitter</a>
+              </li>
+              <li>
+                <a class="nav-link" href="https://instagram.com"> Instagram</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <ul>
+              <h2 class="my-3">Location</h2>
+              <p>Address: 216-219, Opposite Apple</p>
+              <p>Hospital, Above Hotel Raj</p>
+              <p>Nandini, Bhavarkua, Indore</p>
+              <p>+91-7974250782</p>
+              <p>0731-4701122</p>
+              <p>Programmerspnt@gmail.com</p>
+            </ul>
+          </div>
+
+          <div style="width: 50%">
+            <form>
+              <h2 class="my-3">Contact Us</h2>
+              <div class="mb-3">
+                <label for="exampleInputText" class="form-label">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleInputText"
+                  placeholder="Enter your name"
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Enter your email"
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleInputText1" class="form-label"
+                  >Address</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleInputText1"
+                  placeholder="Enter your address"
+                />
+              </div>
+
+              <button type="submit" class="btn btn-primary w-100">
+                Submit
+              </button>
+            </form>
+          </div>
+        </section>
+
+        <footer   class="text-center py-3 bg-body-secondary">
+          <span>
+            Copyright &copy; 2024 Programmers Point. &nbsp;Mantain by Visuotech.
+            &nbsp;All rights reserved
+          </span>
+        </footer>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js
+    "></script>
+  </body>
+</html>
